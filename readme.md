@@ -1,10 +1,11 @@
 ### Usage
 
 1. Install Python 3.8. For convenience, execute the following command.
+   pip install -r requirements.txt
 
-2. Prepare Data. You can obtain the well pre-processed datasets from [Google Drive] or [Baidu Drive], Then place the downloaded data in the folder./dataset.
+3. Prepare Data. You can obtain the well pre-processed datasets from [Google Drive] or [Baidu Drive], Then place the downloaded data in the folder./dataset.
 
-3. Train and evaluate model. You can reproduce the experiment results as the following examples:
+4. Train and evaluate model. You can reproduce the experiment results as the following examples:
    python run_longExp.py --is_training 1 --model WhiteTST --data ETTh1 --root_path ./dataset/ETT-small --data_path ETTh1.csv
 
 5. Develop your own model.
